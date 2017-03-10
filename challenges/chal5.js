@@ -23,7 +23,6 @@ function interval(){
 }
 
 function appendDom(){
-  //Write Append Dom Code Here
   for(var i = 0; i < numSquares; i++){
     $(".container").append("<div class='square'></div>");
     var $el = $(".container").children().last();
@@ -35,7 +34,7 @@ function appendDom(){
 
 function highlightIndex(){
   for(var i = 0; i < divArray.length; i++){
-
+    $(divArray[i]).removeClass("highlight");
     if(divArray[i].data("id") == index){
       divArray[i].addClass("highlight");
     }

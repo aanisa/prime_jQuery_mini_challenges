@@ -5,9 +5,13 @@
 */
 
 $(document).ready(function(){
-
+    appendDom();
 });
 
 function appendDom(){
   //Write Append Dom Code Here
+  $('.container').append('<div>'+
+                          '<p>Anisa<p>' +
+                          '<p>Minneapolis<p>' +
+                          '</div');
 }

@@ -29,10 +29,9 @@ function appendDom(){
     $el.append("<p>" + peopleArray[i].name + "</p>");
     $el.append("<p>" + peopleArray[i].number + "</p>");
     $el.append("<p>" + peopleArray[i].salary + "</p>");
-    if(true /* Rewrite this  */){
+
+    if(peopleArray[i].name != "Mark"){
       $el.hide();
-    } else {
-      /* Code here too */
-    }
+    } 
   }
 }

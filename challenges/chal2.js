@@ -13,4 +13,8 @@ function appendDom(){
   $(".container").append("<div></div>");
   var $el = $(".container").children().last();
   $el.append("<button>Meow</button>");
+
+  $el.on("click", "button",function(){
+    console.log("Meow");
+  });
 }
