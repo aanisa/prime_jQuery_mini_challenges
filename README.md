@@ -1,6 +1,6 @@
-# jQuery Peer Mini Challenges
+# Prime Digital Academy Week 1 - Code Challenge
 
-Hey everyone! Here are a series of jQuery challenges that already have code built out, but are missing some component, or some
+Here are a series of jQuery challenges that already have code built out, but are missing some component, or some
 component is incorrect. Follow the instructions to see if you and your peer can figure out the correction.
 
 Inside this repo, you will find a 'challenges' folder. Work your way through each file within that folder. Complete each of 
